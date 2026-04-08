@@ -1,12 +1,13 @@
 import {
-  Bolt,
   Briefcase,
   Building2,
   CheckCircle2,
   ClipboardCheck,
+  Droplets,
   House,
   Phone,
   ShieldCheck,
+  Waves,
 } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -24,25 +25,25 @@ import { siteContent } from '@/content/siteContent';
 import { siteImages } from '@/content/siteImages';
 
 export const metadata: Metadata = {
-  title: 'Power Trip Electrical | Trusted Local Electricians',
+  title: 'PowerFlow Plumbing | Trusted Local Plumbers',
   description: siteContent.siteDescription,
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Power Trip Electrical | Trusted Local Electricians',
+    title: 'PowerFlow Plumbing | Trusted Local Plumbers',
     description: siteContent.siteDescription,
   },
 };
 
 const serviceIcons = [
-  Bolt,
+  Droplets,
   ShieldCheck,
   Building2,
   ClipboardCheck,
   House,
   Briefcase,
-  Bolt,
+  Waves,
   Phone,
 ];
 
@@ -62,7 +63,7 @@ export default function Home() {
                 key={point}
                 className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-2 text-sm font-medium shadow-sm"
               >
-                <CheckCircle2 className="size-4 shrink-0 text-[#dd702c]" />
+                <CheckCircle2 className="size-4 shrink-0 text-primary" />
                 <span>{point}</span>
               </div>
             ))}
@@ -77,7 +78,7 @@ export default function Home() {
           <div className="mx-auto max-w-4xl space-y-14">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-                Electrical services built around real property needs
+                Plumbing services built around real property needs
               </h2>
               <p className="text-muted-foreground mx-auto max-w-2xl text-lg tracking-tight md:text-xl">
                 {siteContent.services.intro}
@@ -93,7 +94,7 @@ export default function Home() {
                     className="flex flex-col items-start gap-6 rounded-lg border border-border p-6 transition-shadow hover:shadow-sm md:flex-row"
                   >
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-muted">
-                      <Icon className="h-6 w-6 text-[#dd702c]" />
+                      <Icon className="h-6 w-6 text-primary" />
                     </div>
                     <div className="flex-1 space-y-3">
                       <h3 className="text-xl font-semibold">{service.title}</h3>
@@ -170,12 +171,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-padding bg-[#111827] text-white">
+      <section className="section-padding bg-[linear-gradient(135deg,#184a8f_0%,#3871c1_60%,#51ade5_100%)] text-white">
         <div className="container">
           <h2 className="max-w-3xl text-3xl md:text-5xl">{siteContent.home.finalCta.title}</h2>
           <p className="mt-4 max-w-3xl text-white/80">{siteContent.home.finalCta.description}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button asChild className="bg-[#dd702c] text-white hover:bg-[#c96121]">
+            <Button asChild className="bg-white text-[#184a8f] hover:bg-sky-50">
               <Link href={siteContent.home.finalCta.primaryCta.href}>{siteContent.home.finalCta.primaryCta.label}</Link>
             </Button>
             <Button asChild variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">

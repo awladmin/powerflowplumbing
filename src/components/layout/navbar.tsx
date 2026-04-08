@@ -22,7 +22,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="bg-background/95 sticky top-0 z-50 border-b backdrop-blur">
+    <header className="bg-background sticky top-0 z-50">
       <div className="navbar-container flex h-[var(--header-height)] items-center justify-between gap-4">
         <Logo />
 

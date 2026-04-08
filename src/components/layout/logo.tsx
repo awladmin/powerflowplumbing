@@ -15,10 +15,10 @@ const Logo = ({ className = '', wrapperClassName = '', svgClassName = '' }: Logo
       <Link
         href="/"
         className={cn('relative block', className)}
-        aria-label="Power Trip Electrical - Home"
+        aria-label="PowerFlow Plumbing - Home"
       >
-        <LogoSvg className={cn('h-14 w-[240px] lg:h-16 lg:w-[285px]', svgClassName)} />
-        <span className="sr-only">Power Trip Electrical</span>
+        <LogoSvg className={cn('h-10 w-[162px] lg:h-12 lg:w-[185px]', svgClassName)} />
+        <span className="sr-only">PowerFlow Plumbing</span>
       </Link>
     </div>
   );

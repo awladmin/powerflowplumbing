@@ -16,12 +16,12 @@ interface Testimonial19Props {
 }
 
 const avatarPool = [
-  '/action/ev-point.jpg',
-  '/action/outdoor-lighting.jpg',
-  '/action/kitchen.jpg',
-  '/action/tool-box.jpg',
-  '/action/led-lighting.jpg',
-  '/action/ev-point.jpg',
+  '/images/lifestyle/leakrepair.jpg',
+  '/images/lifestyle/Blockeddrainandwastepiperepair.jpg',
+  '/images/lifestyle/Kitchenplumbingupgrade.jpg',
+  '/images/lifestyle/Bathroomplumbingrefurbishment.jpg',
+  '/images/lifestyle/Smallofficewashroomplumbingmaintenance.jpg',
+  '/images/lifestyle/Landlordrepairbeforetenantmove.jpg',
 ];
 
 function getInitials(name: string) {
@@ -45,7 +45,7 @@ export default function Testimonial19({ className }: Testimonial19Props) {
     <section className={cn('section-padding !pb-10', className)}>
       <div className="container flex flex-col items-center gap-4">
         <div className="flex items-center gap-1 text-sm font-semibold">
-          <Zap className="h-5 w-auto fill-[#dd702c] text-[#dd702c]" />
+          <Zap className="h-5 w-auto fill-primary text-primary" />
           Rated 5 stars by local customers
         </div>
         <h2 className="text-center text-3xl font-semibold lg:text-4xl">Recent customer feedback</h2>
@@ -82,7 +82,7 @@ export default function Testimonial19({ className }: Testimonial19Props) {
                       </div>
                       <div className="flex gap-1">
                         {Array.from({ length: 5 }).map((_, i) => (
-                          <Star key={i} className="size-4 fill-amber-500 text-amber-500" />
+                          <Star key={i} className="size-4 fill-primary text-primary" />
                         ))}
                       </div>
                     </div>

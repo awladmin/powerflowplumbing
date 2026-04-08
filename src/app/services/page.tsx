@@ -7,14 +7,14 @@ import { siteContent } from '@/content/siteContent';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Domestic and light commercial electrical services including rewires, consumer unit upgrades, fault finding, EV chargers, and testing.',
+    'Domestic and light commercial plumbing services including leak repairs, blocked drains, bathroom plumbing, kitchen plumbing, and emergency callouts.',
   alternates: {
     canonical: '/services',
   },
   openGraph: {
-    title: 'Services | Power Trip Electrical',
+    title: 'Services | PowerFlow Plumbing',
     description:
-      'Domestic and light commercial electrical services including rewires, consumer unit upgrades, fault finding, EV chargers, and testing.',
+      'Domestic and light commercial plumbing services including leak repairs, blocked drains, bathroom plumbing, kitchen plumbing, and emergency callouts.',
   },
 };
 

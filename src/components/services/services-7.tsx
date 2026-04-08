@@ -1,15 +1,6 @@
 'use client';
 
-import {
-  Bolt,
-  Car,
-  ClipboardCheck,
-  House,
-  Lightbulb,
-  Shield,
-  Siren,
-  Wrench,
-} from 'lucide-react';
+import { Droplets, Hammer, House, ShowerHead, Siren, Toilet, Waves, Wrench } from 'lucide-react';
 import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
@@ -21,16 +12,16 @@ interface Services7Props {
 }
 
 const serviceIcons = [
-  Shield,
-  House,
-  Lightbulb,
-  Wrench,
-  Car,
-  Bolt,
-  ClipboardCheck,
-  Shield,
-  House,
   Siren,
+  Droplets,
+  Waves,
+  ShowerHead,
+  House,
+  Wrench,
+  Droplets,
+  Hammer,
+  Toilet,
+  Wrench,
 ];
 
 const Services7 = ({ className }: Services7Props) => {
@@ -40,7 +31,7 @@ const Services7 = ({ className }: Services7Props) => {
         <div className="mx-auto max-w-5xl space-y-14">
           <div className="space-y-4 text-center">
             <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">
-              Domestic and commercial electrical services done properly
+              Domestic and commercial plumbing services done properly
             </h1>
             <p className="text-muted-foreground mx-auto max-w-3xl text-base md:text-lg">
               {siteContent.services.intro}
@@ -56,7 +47,7 @@ const Services7 = ({ className }: Services7Props) => {
                   className="flex flex-col items-start gap-6 rounded-lg border border-border p-6 transition-shadow hover:shadow-sm md:flex-row"
                 >
                   <div className="flex shrink-0 items-center justify-center rounded-lg bg-muted p-3">
-                    <Icon className="h-6 w-6 text-[#dd702c]" />
+                    <Icon className="h-6 w-6 text-primary" />
                   </div>
 
                   <div className="flex-1 space-y-3">

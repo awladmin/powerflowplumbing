@@ -6,14 +6,14 @@ import { join } from 'path';
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
   description:
-    'These Terms and Conditions govern your use of the Power Trip Electrical website and services.',
+    'These Terms and Conditions govern your use of the PowerFlow Plumbing website and services.',
   alternates: {
     canonical: '/terms-and-conditions',
   },
   openGraph: {
     title: 'Terms & Conditions',
     description:
-      'These Terms and Conditions govern your use of the Power Trip Electrical website and services.',
+      'These Terms and Conditions govern your use of the PowerFlow Plumbing website and services.',
   },
 };
 

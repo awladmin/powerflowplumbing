@@ -12,14 +12,14 @@ import { siteImages } from '@/content/siteImages';
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'Recent electrical projects from Power Trip Electrical including rewires, lighting upgrades, EV charger installs, and commercial works.',
+    'Recent plumbing projects from PowerFlow Plumbing including leak repairs, bathroom work, kitchen plumbing, drainage repairs, and commercial maintenance.',
   alternates: {
     canonical: '/projects',
   },
   openGraph: {
-    title: 'Projects | Power Trip Electrical',
+    title: 'Projects | PowerFlow Plumbing',
     description:
-      'Recent electrical projects from Power Trip Electrical including rewires, lighting upgrades, EV charger installs, and commercial works.',
+      'Recent plumbing projects from PowerFlow Plumbing including leak repairs, bathroom work, kitchen plumbing, drainage repairs, and commercial maintenance.',
   },
 };
 
@@ -75,7 +75,7 @@ export default function ProjectsPage() {
                 </p>
                 <div className="rounded-lg border bg-muted/50 p-4">
                   <p className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-[#dd702c]" />
+                    <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-primary" />
                     <span>
                       <span className="font-semibold">Result:</span> {project.result}
                     </span>

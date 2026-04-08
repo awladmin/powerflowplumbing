@@ -6,14 +6,14 @@ import { join } from 'path';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'This Privacy Policy explains how Power Trip Electrical handles personal information.',
+    'This Privacy Policy explains how PowerFlow Plumbing handles personal information.',
   alternates: {
     canonical: '/privacy-policy',
   },
   openGraph: {
     title: 'Privacy Policy',
     description:
-      'This Privacy Policy explains how Power Trip Electrical handles personal information.',
+      'This Privacy Policy explains how PowerFlow Plumbing handles personal information.',
   },
 };
 

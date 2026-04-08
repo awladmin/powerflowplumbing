@@ -23,27 +23,27 @@ export default function HomeHeroMosaic({ className }: HomeHeroMosaicProps) {
   );
 
   return (
-    <section className={cn('section-padding bg-gradient-to-br from-background via-muted/30 to-background', className)}>
+    <section className={cn('section-padding bg-gradient-to-br from-white via-sky-50/50 to-white', className)}>
       <div className="container">
-        <div className="relative overflow-hidden rounded-2xl border bg-slate-950 text-white">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(245,158,11,0.18),transparent_40%)]" />
+        <div className="relative overflow-hidden rounded-2xl border bg-[linear-gradient(135deg,#184a8f_0%,#3871c1_52%,#51ade5_100%)] text-white">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.22),transparent_38%)]" />
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
             <div className="relative z-10 flex flex-col justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
-              <p className="text-xs font-semibold tracking-[0.18em] text-amber-300 uppercase">
+              <p className="text-xs font-semibold tracking-[0.18em] text-sky-100 uppercase">
                 {siteContent.home.hero.eyebrow}
               </p>
               <h1 className="mt-4 max-w-2xl text-4xl leading-tight font-bold text-balance md:text-5xl">
                 {siteContent.home.hero.headline}
               </h1>
-              <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-200 md:text-lg">
+              <p className="mt-5 max-w-2xl text-base leading-relaxed text-sky-50/90 md:text-lg">
                 {siteContent.home.hero.description}
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <Button asChild size="lg" className="bg-amber-500 text-slate-950 hover:bg-amber-400">
+                <Button asChild size="lg" className="bg-white text-[#184a8f] hover:bg-sky-50">
                   <Link href={siteContent.home.hero.primaryCta.href}>{siteContent.home.hero.primaryCta.label}</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-slate-200/30 bg-transparent text-white hover:bg-white/10">
+                <Button asChild size="lg" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">
                   <Link href={siteContent.home.hero.secondaryCta.href}>
                     {siteContent.home.hero.secondaryCta.label}
                     <ArrowRight className="size-4" />
@@ -51,7 +51,7 @@ export default function HomeHeroMosaic({ className }: HomeHeroMosaicProps) {
                 </Button>
               </div>
 
-              <a href={siteContent.phoneHref} className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-amber-200 hover:text-amber-100">
+              <a href={siteContent.phoneHref} className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-sky-100 hover:text-white">
                 <Phone className="size-4" />
                 {siteContent.home.hero.callout}
               </a>
@@ -68,7 +68,7 @@ export default function HomeHeroMosaic({ className }: HomeHeroMosaicProps) {
               <div className="mt-6 grid gap-2 text-sm sm:grid-cols-2">
                 {siteContent.trustPoints.slice(0, 4).map((point) => (
                   <div key={point} className="inline-flex items-center gap-2 text-slate-200">
-                    <CheckCircle2 className="size-4 text-amber-400" />
+                    <CheckCircle2 className="size-4 text-sky-100" />
                     <span>{point}</span>
                   </div>
                 ))}
@@ -96,7 +96,7 @@ export default function HomeHeroMosaic({ className }: HomeHeroMosaicProps) {
                     <CarouselContent className="max-h-[42rem]">
                       {column.map((image, imageIndex) => (
                         <CarouselItem key={`hero-image-col-${index}-${imageIndex}`} className="pt-3">
-                          <div className="relative h-44 w-36 overflow-hidden rounded-xl border border-white/15 bg-slate-900">
+                          <div className="relative h-44 w-36 overflow-hidden rounded-xl border border-white/15 bg-[#184a8f]/35">
                             <ImageWithFallback
                               src={image.src}
                               fallbackSrc={image.fallback}
@@ -132,7 +132,7 @@ export default function HomeHeroMosaic({ className }: HomeHeroMosaicProps) {
                           key={`hero-mobile-image-${row}-${index}`}
                           className="basis-[10.25rem] pl-2"
                         >
-                          <div className="relative h-32 overflow-hidden rounded-lg border border-white/15 bg-slate-900">
+                          <div className="relative h-32 overflow-hidden rounded-lg border border-white/15 bg-[#184a8f]/35">
                             <ImageWithFallback
                               src={image.src}
                               fallbackSrc={image.fallback}

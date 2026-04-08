@@ -8,14 +8,14 @@ import { siteContent } from '@/content/siteContent';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn more about Power Trip Electrical, our values, and how we deliver safe, tidy, reliable electrical work for homes and businesses.',
+    'Learn more about PowerFlow Plumbing, our values, and how we deliver tidy, reliable plumbing work for homes and businesses.',
   alternates: {
     canonical: '/about',
   },
   openGraph: {
-    title: 'About | Power Trip Electrical',
+    title: 'About | PowerFlow Plumbing',
     description:
-      'Learn more about Power Trip Electrical, our values, and how we deliver safe, tidy, reliable electrical work for homes and businesses.',
+      'Learn more about PowerFlow Plumbing, our values, and how we deliver tidy, reliable plumbing work for homes and businesses.',
   },
 };
 
@@ -32,33 +32,33 @@ export default function AboutPage() {
                   {siteContent.about.hero.description}
                 </p>
                 <p className="text-muted-foreground lg:text-lg">
-                  We work with homeowners, landlords, and small businesses that want electrical work done safely,
+                  We work with homeowners, landlords, and small businesses that want plumbing work done properly,
                   clearly, and without unnecessary hassle.
                 </p>
               </div>
 
               <div className="flex w-full flex-col items-center justify-center gap-6 md:flex-row">
                 <ImageWithFallback
-                  src="/action/worker-facing-camera.jpg"
+                  src="/images/lifestyle/leakrepair.jpg"
                   fallbackSrc="/images/placeholders/about-team.svg"
-                  alt="Electrician speaking with customer on site"
+                  alt="Leak repair and pipework upgrade in a domestic property"
                   width={700}
                   height={1000}
                   className="aspect-[0.72] w-full rounded-lg border object-cover md:w-1/2"
                 />
                 <div className="flex w-full flex-col items-center justify-center gap-6 md:w-1/2">
                   <ImageWithFallback
-                    src="/action/worker-on-board.jpg"
+                    src="/images/lifestyle/Bathroomplumbingrefurbishment.jpg"
                     fallbackSrc="/images/placeholders/project-02.svg"
-                    alt="Electrician working on control board"
+                    alt="Bathroom plumbing refurbishment in progress"
                     width={700}
                     height={760}
                     className="aspect-[1.1] rounded-lg border object-cover"
                   />
                   <ImageWithFallback
-                    src="/action/worked-internals.jpg"
+                    src="/images/lifestyle/Kitchenplumbingupgrade.jpg"
                     fallbackSrc="/images/placeholders/project-01.svg"
-                    alt="Internal electrical installation in progress"
+                    alt="Kitchen plumbing upgrade with tidy pipework"
                     width={700}
                     height={1000}
                     className="aspect-[0.72] rounded-lg border object-cover"
@@ -70,26 +70,26 @@ export default function AboutPage() {
             <div className="flex w-full flex-col items-center justify-center gap-12 pt-10 lg:w-1/2 lg:pt-40">
               <div className="flex w-full flex-col items-center justify-center gap-6 md:flex-row">
                 <ImageWithFallback
-                  src="/action/small-office.jpg"
+                  src="/images/lifestyle/Smallofficewashroomplumbingmaintenance.jpg"
                   fallbackSrc="/images/placeholders/project-05.svg"
-                  alt="Small office fit-out electrical work"
+                  alt="Small office washroom plumbing maintenance"
                   width={700}
                   height={820}
                   className="aspect-[0.9] w-full rounded-lg border object-cover md:w-1/2"
                 />
                 <div className="flex w-full flex-col items-center justify-center gap-6 md:w-1/2">
                   <ImageWithFallback
-                    src="/action/landlord.jpg"
+                    src="/images/lifestyle/Landlordrepairbeforetenantmove.jpg"
                     fallbackSrc="/images/placeholders/project-06.svg"
-                    alt="Landlord safety check and testing"
+                    alt="Landlord repair package before tenant move-in"
                     width={700}
                     height={760}
                     className="aspect-[0.8] rounded-lg border object-cover"
                   />
                   <ImageWithFallback
-                    src="/action/outside-lighting.jpg"
+                    src="/images/lifestyle/Blockeddrainandwastepiperepair.jpg"
                     fallbackSrc="/images/placeholders/project-04.svg"
-                    alt="Outdoor lighting installation at dusk"
+                    alt="Blocked drain and waste pipe repair"
                     width={700}
                     height={820}
                     className="aspect-[0.9] rounded-lg border object-cover"
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 <h2 className="mb-6 text-2xl font-semibold">How We Work</h2>
                 <p className="mb-6 text-base leading-relaxed lg:text-lg">
                   {siteContent.about.howWeWork[0].title}, {siteContent.about.howWeWork[1].title.toLowerCase()}, and
-                  clear scheduling before we start. Then we complete installation or repairs safely, test thoroughly,
+                  clear scheduling before we start. Then we complete installation or repairs carefully, test thoroughly,
                   and hand over cleanly.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">

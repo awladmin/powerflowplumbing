@@ -1,12 +1,12 @@
 export const siteContent = {
-  siteName: 'Power Trip Electrical',
-  siteTagline: 'Trusted local electricians for homes and businesses.',
+  siteName: 'PowerFlow Plumbing',
+  siteTagline: 'Trusted local plumbers for homes, landlords, and small businesses.',
   siteDescription:
-    'Reliable local electricians for rewires, lighting, consumer unit upgrades, EV chargers, inspections, and fault finding. Clear quotes, quality workmanship, and fast response.',
-  siteUrl: 'https://www.powertripelectrical.co.uk',
+    'Reliable local plumbers for leaks, blocked drains, boiler pipework, bathroom plumbing, kitchen plumbing, and emergency callouts. Clear quotes, tidy workmanship, and fast local response.',
+  siteUrl: 'https://www.powerflowplumbing.co.uk',
   phoneDisplay: '01494 123 450',
   phoneHref: 'tel:+441494123450',
-  email: 'hello@powertripelectrical.co.uk',
+  email: 'hello@powerflowplumbing.co.uk',
   serviceArea: 'High Wycombe, Beaconsfield, Marlow, Amersham, and nearby areas',
   openingHours: [
     { label: 'Monday to Friday', value: '8:00am - 6:00pm' },
@@ -23,8 +23,8 @@ export const siteContent = {
   ],
 
   trustPoints: [
-    'Fully qualified electricians',
-    'Domestic & commercial work',
+    'Qualified plumbing specialists',
+    'Domestic & light commercial work',
     'Clear quotes and scope',
     'Tidy workmanship',
     'Fast local response',
@@ -32,24 +32,24 @@ export const siteContent = {
 
   home: {
     hero: {
-      eyebrow: 'Power Trip Electrical',
-      headline: 'Reliable electrical work, clear quotes, and quality workmanship',
+      eyebrow: 'PowerFlow Plumbing',
+      headline: 'Reliable plumbing work, clear quotes, and tidy workmanship',
       description:
-        'From rewires and consumer unit upgrades to EV chargers and fault finding, we deliver safe, practical electrical work for homes, landlords, and local businesses.',
+        'From leak repairs and blocked drains to bathroom plumbing and hot water issues, we deliver practical plumbing services for homes, landlords, and local businesses.',
       primaryCta: { label: 'Request a Quote', href: '/contact' },
       secondaryCta: { label: 'View Our Work', href: '/projects' },
       callout: 'Need urgent help? Call 01494 123 450',
       stats: [
         { value: '24hr', label: 'Emergency response window' },
-        { value: '10+', label: 'Core electrical services' },
+        { value: '10+', label: 'Core plumbing services' },
         { value: '5-step', label: 'Clear job process' },
       ],
     },
     whyChooseUs: [
       {
-        title: 'Qualified and safety-led',
+        title: 'Practical plumbing expertise',
         description:
-          'All work is completed by trained electricians with safety, testing, and compliance built into every job.',
+          'We focus on effective plumbing repairs and installations that solve the issue properly, not temporary fixes.',
       },
       {
         title: 'Clear communication',
@@ -59,7 +59,7 @@ export const siteContent = {
       {
         title: 'Respectful, tidy work',
         description:
-          'We protect work areas, keep disruption low, and leave properties clean and ready to use.',
+          'We protect work areas, keep disruption low, and leave kitchens, bathrooms, and utility spaces clean and ready to use.',
       },
       {
         title: 'Dependable scheduling',
@@ -67,9 +67,9 @@ export const siteContent = {
           'We turn up when promised, stick to agreed scope, and keep you informed if anything changes.',
       },
       {
-        title: 'Domestic and commercial',
+        title: 'Domestic and light commercial',
         description:
-          'From family homes to small office spaces, we handle electrical work with the same professional standards.',
+          'From family homes to rental properties and small premises, we handle plumbing work with the same professional standards.',
       },
       {
         title: 'Reliable aftercare',
@@ -81,21 +81,21 @@ export const siteContent = {
       {
         title: 'Homeowners and families',
         description:
-          'Safer electrics, better lighting, and practical upgrades that improve everyday living.',
+          'Leak repairs, bathroom upgrades, kitchen plumbing, and everyday plumbing support that keeps your home running smoothly.',
       },
       {
         title: 'Landlords and property managers',
         description:
-          'Testing, remedial works, and dependable scheduling to keep properties compliant and ready.',
+          'Responsive repairs, planned upgrades, and dependable scheduling to keep properties ready for tenants.',
       },
       {
         title: 'Small businesses',
         description:
-          'Lighting, power improvements, and maintenance support for local shops, offices, and units.',
+          'Practical plumbing maintenance and repairs for offices, shops, studios, and other local commercial spaces.',
       },
     ],
     finalCta: {
-      title: 'Need a trusted electrician for your next job?',
+      title: 'Need a trusted plumber for your next job?',
       description:
         'Tell us what you need and we will come back with a clear plan, transparent pricing, and practical next steps.',
       primaryCta: { label: 'Send an Enquiry', href: '/contact' },
@@ -107,243 +107,229 @@ export const siteContent = {
     hero: {
       title: 'A local team that takes pride in doing the job properly',
       description:
-        'Power Trip Electrical is a modern local electrical contractor supporting homeowners, landlords, and businesses with safe, practical electrical work and clear communication from first call to handover.',
+        'PowerFlow Plumbing is a modern local plumbing company supporting homeowners, landlords, and businesses with reliable plumbing work and clear communication from first call to handover.',
     },
     story: [
-      'Power Trip Electrical was set up to offer a straightforward alternative to rushed, unclear electrical work. We focus on quality workmanship, honest recommendations, and dependable attendance so customers know exactly what to expect.',
-      'Most of our work comes from repeat customers and referrals. People value that we are easy to deal with, we explain things clearly, and we leave sites tidy. Whether it is a small repair or a full rewire, we approach every job with the same standards.',
+      'PowerFlow Plumbing was set up to offer a straightforward alternative to rushed, unclear plumbing work. We focus on good workmanship, honest recommendations, and dependable attendance so customers know exactly what to expect.',
+      'Whether it is a leaking pipe, a bathroom refurbishment, a blocked waste line, or a plumbing upgrade before a property handover, we approach every job with the same care and attention to detail.',
+      'Our goal is simple: solve the problem properly, keep the process easy to understand, and leave the site tidy when the job is done.',
     ],
     values: [
       {
-        title: 'Safety first',
+        title: 'Straight answers',
         description:
-          'Safe, compliant installations are the baseline for everything we do.',
+          'We explain the issue, the options, and the likely next step in plain language without overselling work.',
       },
       {
-        title: 'Clear and honest advice',
+        title: 'Work done properly',
         description:
-          'We explain options in plain English and only recommend what is genuinely needed.',
+          'We take pride in durable, sensible plumbing repairs and installations that are built to last.',
       },
       {
         title: 'Respect for your property',
         description:
-          'We keep disruption down, protect work areas, and leave the site clean.',
-      },
-      {
-        title: 'Reliable delivery',
-        description:
-          'Agreed scope, sensible scheduling, and clear communication throughout.',
+          'We protect finished spaces, minimise disruption, and work tidily in kitchens, bathrooms, cupboards, and plant areas.',
       },
     ],
     howWeWork: [
       {
-        title: 'Initial call or enquiry',
+        title: 'Clear assessment and quote',
         description:
-          'We listen to what you need, ask practical questions, and advise on next steps.',
+          'We start by understanding the issue, checking access, and explaining the most practical fix before work begins.',
       },
       {
-        title: 'Site visit or clear quote',
+        title: 'Planned, tidy completion',
         description:
-          'Where needed, we visit to assess the job and provide a clear breakdown of work.',
-      },
-      {
-        title: 'Scope agreed and scheduled',
-        description:
-          'Once approved, we confirm scope, timing, and access so everything runs smoothly.',
-      },
-      {
-        title: 'Professional installation or repair',
-        description:
-          'Work is completed safely, tidily, and to a high standard by qualified electricians.',
+          'We complete the agreed work carefully, keep disruption down, and communicate clearly throughout.',
       },
       {
         title: 'Testing, handover, and follow-up',
         description:
-          'We test completed work, walk you through the outcome, and stay available after completion.',
+          'We test the completed work, make sure everything is operating properly, and stay available after completion.',
       },
     ],
   },
 
   services: {
     intro:
-      'Electrical services for domestic properties and light commercial spaces, delivered with clear communication and practical advice.',
+      'Plumbing services for homes, rental properties, and light commercial spaces, delivered with clear communication and practical advice.',
     list: [
       {
-        slug: 'consumer-unit-upgrades',
-        title: 'Consumer Unit Upgrades',
+        slug: 'emergency-plumbing',
+        title: 'Emergency Plumbing',
         description:
-          'Upgrade older fuse boards to safer, more reliable modern consumer units with improved protection and peace of mind.',
-        useCases: ['Aging fuse board', 'Repeated tripping', 'Home renovation'],
+          'Responsive help for urgent leaks, burst pipework, overflows, and plumbing faults where a fast safe fix matters.',
+        useCases: ['Burst pipe', 'Overflowing toilet', 'Urgent leak'],
       },
       {
-        slug: 'rewires',
-        title: 'Rewires',
+        slug: 'leak-detection-repairs',
+        title: 'Leak Detection & Repairs',
         description:
-          'Full and partial rewires for older properties, renovations, extensions, and major home upgrades.',
-        useCases: ['1930s or older wiring', 'Extension works', 'Layout changes'],
+          'Find and repair hidden or visible leaks in pipework, fixtures, valves, and supply lines before they cause more damage.',
+        useCases: ['Ceiling stain', 'Pressure loss', 'Dripping pipework'],
       },
       {
-        slug: 'lighting-installation',
-        title: 'Lighting Installation',
+        slug: 'blocked-drains-wastes',
+        title: 'Blocked Drains & Waste Pipes',
         description:
-          'Interior and exterior lighting including downlights, pendants, kitchen lighting, and practical modern upgrades.',
-        useCases: ['Kitchen upgrades', 'Living space refresh', 'Energy-efficient lighting'],
+          'Practical clearing and repair work for blocked sinks, slow drains, bad smells, and recurring waste pipe issues.',
+        useCases: ['Blocked sink', 'Slow draining bath', 'Waste pipe smell'],
       },
       {
-        slug: 'fault-finding-repairs',
-        title: 'Fault Finding & Repairs',
+        slug: 'bathroom-plumbing',
+        title: 'Bathroom Plumbing',
         description:
-          'Fast diagnosis and repair for tripping electrics, dead circuits, faulty fittings, and intermittent issues.',
-        useCases: ['Power loss', 'Faulty sockets', 'Intermittent faults'],
+          'Bathroom plumbing for refits and repairs including toilets, basins, baths, showers, and associated pipework.',
+        useCases: ['Bathroom renovation', 'New shower', 'Toilet replacement'],
       },
       {
-        slug: 'ev-charger-installation',
-        title: 'EV Charger Installation',
+        slug: 'kitchen-plumbing',
+        title: 'Kitchen Plumbing',
         description:
-          'Clean, practical EV charger installation with sensible positioning advice and a tidy finish.',
-        useCases: ['New EV purchase', 'Driveway upgrade', 'Smart home setup'],
+          'Install and adapt kitchen plumbing for sinks, taps, dishwashers, washing machines, and appliance feeds.',
+        useCases: ['New kitchen', 'Tap replacement', 'Appliance connection'],
       },
       {
-        slug: 'outdoor-security-lighting',
-        title: 'Outdoor & Security Lighting',
+        slug: 'tap-toilet-repairs',
+        title: 'Tap, Toilet & Fixture Repairs',
         description:
-          'Exterior lighting for security, driveways, gardens, entrances, and practical after-dark visibility.',
-        useCases: ['Driveway safety', 'Garden usability', 'Security upgrades'],
+          'Repair or replace worn plumbing fixtures including dripping taps, faulty flushes, leaking wastes, and damaged valves.',
+        useCases: ['Dripping tap', 'Running toilet', 'Faulty stopcock'],
       },
       {
-        slug: 'testing-inspection',
-        title: 'Electrical Testing & Inspection',
+        slug: 'hot-water-cylinder-pipework',
+        title: 'Hot Water Cylinder & Pipework',
         description:
-          'Electrical inspections, investigations, safety checks, and peace-of-mind testing for domestic and commercial properties.',
-        useCases: ['Property purchase', 'Insurance checks', 'Safety concerns'],
+          'Pipework upgrades, cylinder connections, and hot water distribution improvements for dependable day-to-day performance.',
+        useCases: ['Cylinder replacement', 'Pipe reroute', 'Hot water issues'],
       },
       {
-        slug: 'landlord-safety-checks',
-        title: 'Landlord Safety Checks',
+        slug: 'radiator-valve-pipework',
+        title: 'Radiator Valves & Heating Pipework',
         description:
-          'Testing and reporting support for landlords preparing properties for new or existing tenants.',
-        useCases: ['Tenant turnover', 'Routine checks', 'Remedial planning'],
+          'Plumbing work around heating systems including radiator valves, leaking joints, pipe alterations, and balancing support.',
+        useCases: ['Leaking radiator valve', 'Pipe alteration', 'Cold radiator'],
       },
       {
-        slug: 'commercial-maintenance',
-        title: 'Commercial Electrical Maintenance',
+        slug: 'landlord-plumbing-maintenance',
+        title: 'Landlord Plumbing Maintenance',
         description:
-          'Electrical maintenance and improvement work for small commercial spaces, offices, and business premises.',
-        useCases: ['Office upgrades', 'Maintenance plans', 'Compliance support'],
+          'Responsive plumbing repairs and maintenance support for rental properties between tenancies and during occupation.',
+        useCases: ['Tenant repair', 'Pre-let refresh', 'Ongoing maintenance'],
       },
       {
-        slug: 'emergency-callouts',
-        title: 'Emergency Callouts',
+        slug: 'commercial-plumbing-maintenance',
+        title: 'Commercial Plumbing Maintenance',
         description:
-          'Responsive help for urgent electrical faults where quick attendance and a safe fix matter.',
-        useCases: ['Burning smell', 'Critical power loss', 'Unsafe electrical fault'],
+          'Plumbing maintenance and repair work for small commercial spaces, offices, studios, and customer-facing premises.',
+        useCases: ['Office washroom issues', 'Retail back-of-house plumbing', 'Maintenance support'],
       },
     ],
   },
 
   projects: [
     {
-      title: 'Full rewire for a 1930s family home',
+      title: 'Leak repair and pipework upgrade in a family home',
       image: '/images/projects/project-01.jpg',
-      service: 'Rewires',
+      service: 'Leak Detection & Repairs',
       summary:
-        'Complete rewire completed in phases to keep the family in the property during works.',
+        'A persistent leak was traced, repaired, and the surrounding pipework was upgraded for long-term reliability.',
       propertyType: 'Detached family home',
       challenge:
-        'Outdated wiring and limited circuit capacity were causing regular tripping and safety concerns.',
+        'Water staining had appeared below a bathroom and the leak source was not obvious from the finished room.',
       workCompleted:
-        'Installed a full new wiring system, upgraded consumer unit, added modern socket layout, and completed full testing.',
+        'Traced the leaking section, repaired the failed joint, improved access, and replaced nearby ageing pipework.',
       result:
-        'Safer modern installation with improved reliability and better day-to-day usability.',
+        'Leak resolved quickly with a cleaner, more dependable plumbing layout and no further water ingress.',
     },
     {
-      title: 'Consumer unit and kitchen lighting upgrade',
+      title: 'Bathroom plumbing package for a full refurbishment',
       image: '/images/projects/project-02.jpg',
-      service: 'Consumer Unit Upgrades',
+      service: 'Bathroom Plumbing',
       summary:
-        'Kitchen refurbishment supported with upgraded board protection and new layered lighting.',
+        'Complete first-fix and second-fix plumbing delivered for a bathroom renovation with a clean, modern finish.',
       propertyType: 'Semi-detached home',
       challenge:
-        'The existing board had limited protection and the kitchen lighting was outdated and uneven.',
+        'The existing layout was cramped and the new bathroom design needed revised pipe runs and fixture positions.',
       workCompleted:
-        'Replaced consumer unit and installed downlights, under-cabinet lighting, and dedicated appliance circuits.',
+        'Reworked hot and cold feeds, installed new wastes, fitted sanitaryware, and tested all final connections.',
       result:
-        'Improved safety, better lighting control, and a cleaner finish across the new kitchen.',
+        'A tidy finished bathroom with dependable plumbing and a layout that worked better for everyday use.',
     },
     {
-      title: 'EV charger installation at a detached property',
+      title: 'Kitchen sink, tap, and appliance plumbing upgrade',
       image: '/images/projects/project-03.jpg',
-      service: 'EV Charger Installation',
+      service: 'Kitchen Plumbing',
       summary:
-        'External EV charger fitted with practical cable routing and minimal visual impact.',
-      propertyType: 'Detached property with driveway',
+        'Kitchen plumbing adapted to suit a new sink layout and integrated appliances with a tidier under-sink setup.',
+      propertyType: 'Detached property with kitchen remodel',
       challenge:
-        'Customer needed convenient charging access without cluttering the front elevation.',
+        'The new kitchen plan required pipework changes without leaving the cupboard area cluttered or hard to access.',
       workCompleted:
-        'Installed charger on side return, routed supply discreetly, tested fully, and walked the customer through use.',
+        'Reconfigured wastes and supplies, fitted a new tap, connected appliances, and improved isolation access.',
       result:
-        'Reliable home charging setup with a tidy finish and straightforward day-to-day use.',
+        'A cleaner kitchen cupboard layout with reliable plumbing connections and easier future maintenance.',
     },
     {
-      title: 'Outdoor security lighting and garage power',
+      title: 'Blocked waste line and outside drainage issue resolved',
       image: '/images/projects/project-04.jpg',
-      service: 'Outdoor & Security Lighting',
+      service: 'Blocked Drains & Waste Pipes',
       summary:
-        'Security-focused lighting layout paired with improved power access to detached garage.',
+        'Recurring drainage problems were cleared and the affected external waste run was repaired.',
       propertyType: 'End-terrace home',
       challenge:
-        'Dark side access and limited garage power made the area inconvenient and less secure.',
+        'Waste water was draining slowly and backing up during busy use, especially from the kitchen line.',
       workCompleted:
-        'Installed dusk-to-dawn security lighting, pathway lighting, and upgraded garage circuits.',
+        'Cleared the blockage, identified a damaged section of waste pipe, repaired the run, and tested flow.',
       result:
-        'Better visibility, improved security, and more practical power availability outdoors.',
+        'Drainage restored properly with smoother flow and less risk of repeat backup.',
     },
     {
-      title: 'Small office electrical fit-out',
+      title: 'Small office washroom plumbing improvements',
       image: '/images/projects/project-05.jpg',
-      service: 'Commercial Electrical Maintenance',
+      service: 'Commercial Plumbing Maintenance',
       summary:
-        'Electrical layout completed for a small office conversion with modern lighting and power.',
+        'Practical plumbing upgrades completed in a small office washroom with minimal disruption to staff.',
       propertyType: 'Small commercial office unit',
       challenge:
-        'The unit needed new lighting zones and reliable power points for desk-based teams.',
+        'Frequent minor leaks and poor fixture performance were causing repeated maintenance issues.',
       workCompleted:
-        'Installed efficient LED lighting, additional sockets, data power positions, and tested all final circuits.',
+        'Replaced faulty valves, renewed basin connections, improved isolation points, and tested the system.',
       result:
-        'Workspace ready for occupation with improved lighting quality and modern power capacity.',
+        'More reliable washroom plumbing with fewer maintenance headaches for the business.',
     },
     {
-      title: 'Landlord remedial works for rental property',
+      title: 'Fast landlord repair package before tenant move-in',
       image: '/images/projects/project-06.jpg',
-      service: 'Landlord Safety Checks',
+      service: 'Landlord Plumbing Maintenance',
       summary:
-        'Follow-up remedial package delivered quickly ahead of new tenant move-in.',
+        'A short list of plumbing repairs was completed quickly ahead of a new tenancy start date.',
       propertyType: 'Two-bedroom rental flat',
       challenge:
-        'Inspection identified multiple minor issues that needed resolving before handover.',
+        'The property had several unresolved plumbing faults that needed addressing before handover.',
       workCompleted:
-        'Replaced damaged accessories, corrected circuit labelling, repaired a faulting lighting run, and retested.',
+        'Repaired a leaking WC connection, replaced a kitchen tap, renewed trapwork, and checked key plumbing points.',
       result:
-        'Property ready for tenant handover with safer, compliant, and clearly documented electrics.',
+        'Property ready for handover with the main plumbing issues resolved cleanly and on time.',
     },
   ],
 
   testimonials: [
     {
       quote:
-        'They turned up on time, explained the options clearly, and the new consumer unit install was spotless. Exactly what we wanted.',
+        'They found the leak quickly, explained the options clearly, and left everything tidy afterwards. Exactly what we needed.',
       author: 'Emma R.',
       role: 'Homeowner, High Wycombe',
     },
     {
       quote:
-        'We had an urgent fault on a Friday evening and they got us safe quickly. Very professional and easy to deal with.',
+        'We had an urgent plumbing issue on a Friday evening and they got us safe quickly. Very professional and easy to deal with.',
       author: 'Matt G.',
       role: 'Landlord, Beaconsfield',
     },
     {
       quote:
-        'The team handled our office lighting upgrade with minimal disruption. Clear quote, tidy work, and no surprises.',
+        'The team handled our washroom plumbing repairs with minimal disruption. Clear quote, tidy work, and no surprises.',
       author: 'Priya S.',
       role: 'Office Manager, Marlow',
     },
@@ -355,7 +341,7 @@ export const siteContent = {
     },
     {
       quote:
-        'Our EV charger install looks neat and works perfectly. They also gave practical advice on the best position before starting.',
+        'Our kitchen plumbing upgrade looks much neater and everything works properly now. They also gave practical advice before starting.',
       author: 'James L.',
       role: 'Homeowner, Hazlemere',
     },
@@ -365,12 +351,12 @@ export const siteContent = {
     {
       question: 'Do you offer free quotes?',
       answer:
-        'Yes. We provide clear, no-obligation quotes for planned work after discussing your requirements.',
+        'Yes. We provide clear, no-obligation quotes for planned plumbing work after discussing your requirements.',
     },
     {
-      question: 'What types of electrical work do you cover?',
+      question: 'What types of plumbing work do you cover?',
       answer:
-        'We cover rewires, consumer unit upgrades, lighting, EV chargers, fault finding, testing, and maintenance.',
+        'We cover leaks, blocked drains and waste pipes, bathroom plumbing, kitchen plumbing, fixture repairs, and plumbing maintenance.',
     },
     {
       question: 'Do you work on domestic and commercial properties?',
@@ -378,24 +364,24 @@ export const siteContent = {
         'Yes. We support homes, rental properties, and small commercial spaces across our local service area.',
     },
     {
-      question: 'Can you help with urgent electrical faults?',
+      question: 'Can you help with urgent plumbing issues?',
       answer:
-        'Yes. If you have an urgent electrical issue, call us and we will advise immediate safety steps and attendance.',
+        'Yes. If you have an urgent leak or plumbing fault, call us and we will advise immediate safety steps and attendance.',
     },
     {
-      question: 'Do you install EV chargers?',
+      question: 'Do you handle bathroom and kitchen plumbing?',
       answer:
-        'Yes. We install EV chargers with practical siting advice and a tidy, tested finish.',
+        'Yes. We install, adapt, and repair plumbing for bathrooms, kitchens, and utility areas.',
     },
     {
-      question: 'Can you handle full and partial rewires?',
+      question: 'Can you sort blocked drains and waste pipes?',
       answer:
-        'Yes. We carry out both full and partial rewires depending on the property condition and project scope.',
+        'Yes. We deal with blocked sinks, slow drains, waste pipe issues, and related plumbing faults.',
     },
     {
-      question: 'Do you offer landlord electrical checks?',
+      question: 'Do you offer landlord plumbing maintenance?',
       answer:
-        'Yes. We provide testing and reporting support, plus remedial works where required.',
+        'Yes. We provide responsive repairs and practical plumbing support for rental properties.',
     },
     {
       question: 'How quickly can you attend?',
@@ -407,9 +393,9 @@ export const siteContent = {
   contact: {
     title: 'Request a quote or book a site visit',
     intro:
-      'Tell us about your job and we will get back to you with clear advice, practical next steps, and a straightforward quote.',
+      'Tell us about your plumbing job and we will get back to you with clear advice, practical next steps, and a straightforward quote.',
     urgentNote:
-      'If your issue is urgent or potentially unsafe, call us directly for immediate advice.',
+      'If your issue is urgent or causing damage, call us directly for immediate advice.',
     formFields: [
       'Name',
       'Email',
@@ -422,8 +408,8 @@ export const siteContent = {
 
   footer: {
     summary:
-      'Power Trip Electrical provides dependable domestic and light commercial electrical services with a focus on safety, quality, and clear communication.',
-    copyright: `© ${new Date().getFullYear()} Power Trip Electrical`,
+      'PowerFlow Plumbing provides dependable domestic and light commercial plumbing services with a focus on practical repairs, tidy workmanship, and clear communication.',
+    copyright: `© ${new Date().getFullYear()} PowerFlow Plumbing`,
   },
 };
 

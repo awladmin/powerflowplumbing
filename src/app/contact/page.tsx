@@ -12,14 +12,14 @@ import { siteImages } from '@/content/siteImages';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Request a quote, book a site visit, or call Power Trip Electrical for urgent electrical support.',
+    'Request a quote, book a site visit, or call PowerFlow Plumbing for urgent plumbing support.',
   alternates: {
     canonical: '/contact',
   },
   openGraph: {
-    title: 'Contact | Power Trip Electrical',
+    title: 'Contact | PowerFlow Plumbing',
     description:
-      'Request a quote, book a site visit, or call Power Trip Electrical for urgent electrical support.',
+      'Request a quote, book a site visit, or call PowerFlow Plumbing for urgent plumbing support.',
   },
 };
 
@@ -34,7 +34,7 @@ export default function ContactPage() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <Card>
               <CardContent className="flex items-start gap-3 pt-6">
-                <Phone className="mt-1 size-5 text-[#dd702c]" />
+                <Phone className="mt-1 size-5 text-primary" />
                 <div>
                   <p className="text-sm font-semibold">Call</p>
                   <a href={siteContent.phoneHref} className="text-muted-foreground text-sm hover:underline">
@@ -46,7 +46,7 @@ export default function ContactPage() {
 
             <Card>
               <CardContent className="flex items-start gap-3 pt-6">
-                <Mail className="mt-1 size-5 text-[#dd702c]" />
+                <Mail className="mt-1 size-5 text-primary" />
                 <div>
                   <p className="text-sm font-semibold">Email</p>
                   <a href={`mailto:${siteContent.email}`} className="text-muted-foreground text-sm hover:underline">
@@ -58,7 +58,7 @@ export default function ContactPage() {
 
             <Card>
               <CardContent className="flex items-start gap-3 pt-6">
-                <Clock3 className="mt-1 size-5 text-[#dd702c]" />
+                <Clock3 className="mt-1 size-5 text-primary" />
                 <div>
                   <p className="text-sm font-semibold">Opening hours</p>
                   <ul className="text-muted-foreground mt-1 space-y-1 text-sm">
@@ -74,7 +74,7 @@ export default function ContactPage() {
 
             <Card>
               <CardContent className="flex items-start gap-3 pt-6">
-                <MapPin className="mt-1 size-5 text-[#dd702c]" />
+                <MapPin className="mt-1 size-5 text-primary" />
                 <div>
                   <p className="text-sm font-semibold">Service area</p>
                   <p className="text-muted-foreground text-sm">{siteContent.serviceArea}</p>
@@ -83,9 +83,9 @@ export default function ContactPage() {
             </Card>
           </div>
 
-          <div className="mt-8 rounded-xl border border-[#dd702c]/40 bg-[#fff6f0] p-4">
+          <div className="mt-8 rounded-xl border border-primary/25 bg-sky-50 p-4">
             <p className="flex items-start gap-3 text-sm">
-              <AlertTriangle className="mt-0.5 size-5 shrink-0 text-[#dd702c]" />
+              <AlertTriangle className="mt-0.5 size-5 shrink-0 text-primary" />
               <span>{siteContent.contact.urgentNote}</span>
             </p>
           </div>
